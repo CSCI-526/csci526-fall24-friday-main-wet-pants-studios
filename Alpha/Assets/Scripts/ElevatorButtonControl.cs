@@ -35,10 +35,10 @@ public class ElevatorButtonControl : MonoBehaviour
             Debug.Log("isInteracting: " + isInteracting);
             if (!isInteracting)
             {
-                statusText.text = "Press E to enter password";
+                statusText.text = "Press F to enter password";
                 statusText.enabled = true;
 
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetKeyDown(KeyCode.F))
                 {
                     OpenPasswordPanel();  // Show the password panel
                 }
