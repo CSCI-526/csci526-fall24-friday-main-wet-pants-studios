@@ -7074,7 +7074,7 @@ GameObject:
   - component: {fileID: 1000419825}
   - component: {fileID: 1000419824}
   m_Layer: 0
-  m_Name: ElevatorButton
+  m_Name: ElevatorOpenButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11328,7 +11328,7 @@ GameObject:
   - component: {fileID: 1567015576}
   - component: {fileID: 1567015579}
   m_Layer: 0
-  m_Name: ElevatorButton (1)
+  m_Name: 'ElevatorCloseButton '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11435,7 +11435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnimator: {fileID: 1043010993}
   player: {fileID: 453006244}
-  interactionDistance: 3
+  interactionDistance: 5
   victoryCanvas: {fileID: 1859897400}
   statusKey: {fileID: 966126489}
   obstacleLayerMask:
@@ -14246,6 +14246,10 @@ PrefabInstance:
     - target: {fileID: 6998416721014765710, guid: deeacc0e844cd48de890566a27008efc, type: 3}
       propertyPath: m_Name
       value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998416721014765710, guid: deeacc0e844cd48de890566a27008efc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

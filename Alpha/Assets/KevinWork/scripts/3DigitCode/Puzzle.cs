@@ -44,14 +44,14 @@ public class Puzzle : MonoBehaviour
         // Check if the entered digits match the correct password (3-4-8)
         if (firNum == 3 && secNum == 4 && thiNum == 8)
         {
-            Debug.Log("密码正确，打开电梯门！");
+            Debug.Log("Correct password, opening the elevator door!");
             ElevatorButtonControl elevatorControl = FindObjectOfType<ElevatorButtonControl>();
             elevatorControl.OpenDoor();  // Call ElevatorButtonControl's OpenDoor method
             Close();  // Close the puzzle UI
         }
         else
         {
-            Debug.Log("密码错误，请重试！");
+            Debug.Log("Incorrect password, please try again!");
             // Provide feedback to the user for an incorrect password
         }
     }
@@ -62,7 +62,7 @@ public class Puzzle : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;  // Lock the cursor to the center of the screen
         Cursor.visible = false;  // Hide the cursor
         Close();  // Close the UI
-        //修改点
+        // Modification point
         elevatorButtonControl.ClosePasswordPanel();
     }
 }

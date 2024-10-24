@@ -3,36 +3,36 @@ using TMPro;
 
 public class ElevatorButtonControl : MonoBehaviour
 {
-    public Animator doorAnimator;  // 用于控制电梯门的动画
-    public Transform player;       // 玩家对象
-    public float interactionDistance = 3f;  // 玩家与按钮的交互距离
-    private bool isDoorOpen = false;  // 电梯门是否已经打开
-    public TMP_Text statusText;  // UI文本提示
-    public GameObject passwordPanel;  // 密码输入面板UI
-    public LayerMask obstacleLayerMask;  // 用于检测是否有障碍物
-    public Puzzle puzzleScript;  // 引用 Puzzle 脚本
+    public Animator doorAnimator;  // Animator to control the elevator door animation
+    public Transform player;       // Player object
+    public float interactionDistance = 3f;  // Distance for player to interact with the button
+    private bool isDoorOpen = false;  // Whether the elevator door is already open
+    public TMP_Text statusText;  // UI text for prompts
+    public GameObject passwordPanel;  // UI for the password input panel
+    public LayerMask obstacleLayerMask;  // Used to detect if there are obstacles
+    public Puzzle puzzleScript;  // Reference to the Puzzle script
 
-    private bool isInteracting = false;  // 是否处于交互状态
+    private bool isInteracting = false;  // Whether the player is in an interaction state
 
     void Start()
     {
-        passwordPanel.SetActive(false);  // 隐藏密码面板
-        statusText.enabled = false;  // 隐藏状态提示
+        passwordPanel.SetActive(false);  // Hide the password panel
+        statusText.enabled = false;  // Hide the status prompt
 
-        // 启动时锁定并隐藏鼠标
+        // Lock and hide the cursor on start
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     void Update()
     {
-        // 计算玩家与按钮的距离
+        // Calculate the distance between the player and the button
         float distance = Vector3.Distance(player.position, transform.position);
 
-        // 如果电梯门未打开且玩家在交互距离内且没有障碍物，则允许打开UI
+        // If the elevator door is not open, the player is within interaction distance, and no obstacles are present, allow opening the UI
         if (!isDoorOpen && distance < interactionDistance && !IsObstacleBetweenPlayerAndButton())
         {
-            Debug.Log("isInteracting: "+ isInteracting);
+            Debug.Log("isInteracting: " + isInteracting);
             if (!isInteracting)
             {
                 statusText.text = "Press E to enter password";
@@ -40,40 +40,38 @@ public class ElevatorButtonControl : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    OpenPasswordPanel();  // 显示密码面板
+                    OpenPasswordPanel();  // Show the password panel
                 }
             }
         }
         else
         {
-            statusText.enabled = false;  // 当超出距离时隐藏提示
+            statusText.enabled = false;  // Hide the prompt when the player is out of range
         }
 
-        //// 检测玩家是否按下 Enter 键来提交密码  抽象写法 别这么干了
+        //// Detect if the player presses the Enter key to submit the password (Abstract approach, don't use this)
         //if (passwordPanel.activeSelf && Input.GetKeyDown(KeyCode.Return))
         //{
-        //    puzzleScript.Submit();  // 调用 Puzzle 的 Submit 方法来验证密码
+        //    puzzleScript.Submit();  // Call Puzzle's Submit method to verify the password
         //}
     }
 
-    // 打开密码输入面板
+    // Open the password input panel
     private void OpenPasswordPanel()
     {
         if (!isDoorOpen)  // Only open the panel if the door is not opened yet
         {
-            isInteracting = true;  // 标记为交互状态
-            passwordPanel.SetActive(true);  // 显示密码面板
-            statusText.enabled = false;  // 隐藏提示
+            isInteracting = true;  // Mark as interacting state
+            passwordPanel.SetActive(true);  // Show the password panel
+            statusText.enabled = false;  // Hide the prompt
 
-            // 解锁鼠标并显示
+            // Unlock and show the cursor
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
     }
 
-
-
-    // 检查玩家与按钮之间是否有障碍物
+    // Check if there is an obstacle between the player and the button
     bool IsObstacleBetweenPlayerAndButton()
     {
         Vector3 directionToButton = (transform.position - player.position).normalized;
@@ -81,33 +79,31 @@ public class ElevatorButtonControl : MonoBehaviour
 
         if (Physics.Raycast(player.position, directionToButton, distanceToButton, obstacleLayerMask))
         {
-            return true;  // 检测到障碍物
+            return true;  // Obstacle detected
         }
 
-        return false;  // 无障碍物，允许交互
+        return false;  // No obstacle, interaction is allowed
     }
 
-    // 打开电梯门
+    // Open the elevator door
     public void OpenDoor()
     {
         if (!isDoorOpen)
         {
             doorAnimator.SetTrigger("Open");
             isDoorOpen = true;
-            ClosePasswordPanel();  // 关闭密码面板
+            ClosePasswordPanel();  // Close the password panel
         }
     }
 
-    // 关闭密码面板并重置交互状态
+    // Close the password panel and reset interaction state
     public void ClosePasswordPanel()
     {
-        isInteracting = false;  // 重置交互状态
-        passwordPanel.SetActive(false);  // 隐藏密码面板
+        isInteracting = false;  // Reset interaction state
+        passwordPanel.SetActive(false);  // Hide the password panel
 
-        // 锁定并隐藏鼠标
+        // Lock and hide the cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-
-
 }
