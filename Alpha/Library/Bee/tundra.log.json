@@ -519,8 +519,13 @@
 {"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)","displayName":"Csc Assembly-CSharp","index":394}
 {"msg":"noderesult","processed_node_count":512,"number_of_nodes_ever_queued":516,"annotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)","index":394,"exitcode":0,"outputfile":"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll","stdout":"Assets/Scripts/DoorControlRight.cs(8,18): warning CS0414: The field 'DoorControllerRight.doorOpened' is assigned but its value is never used"}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":511,"changes":[{"key":"FileList","value":["Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
+<<<<<<< HEAD
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","displayName":"Copying Assembly-CSharp.dll","index":511}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":512,"changes":[{"key":"FileList","value":["Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
+=======
+{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":512,"changes":[{"key":"FileList","value":["Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
+{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","displayName":"Copying Assembly-CSharp.dll","index":511}
+>>>>>>> 527739c31a42617fcdf285194a186d3444f29683
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","displayName":"Copying Assembly-CSharp.pdb","index":512}
 {"msg":"noderesult","processed_node_count":513,"number_of_nodes_ever_queued":516,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":511,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.dll"}
 {"msg":"noderesult","processed_node_count":514,"number_of_nodes_ever_queued":516,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":512,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.pdb"}

@@ -4,9 +4,9 @@
       <File FileName="Assets/Scripts/PlayerSanity.cs" Line="12" Column="1" />
       <File FileName="Assets/Scripts/PlayerInventory.cs" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scripts/GhostAudioController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GhostAudioController.cs" />
       <File FileName="Assets/Scripts/JumpOnDoorOpen.cs" />
-      <File FileName="Assets/Scripts/ElevatorButtonControl.cs" Line="59" Column="15" />
+      <File FileName="Assets/Scripts/ElevatorButtonControl.cs" />
       <File FileName="Assets/Scripts/ElevatorControl.cs" />
       <File FileName="Assets/Scripts/MainMenu.cs" />
       <File FileName="Assets/Scripts/StandingGhostTrigger.cs" />
@@ -17,8 +17,8 @@
       <File FileName="Assets/SensorItemPickup.cs" />
       <File FileName="Assets/Scripts/DoorControlRight.cs" />
       <File FileName="Assets/UVLight/setUVLight.cs" />
-      <File FileName="Assets/UVLight/RevealInUVLight.shader" Line="1" Column="1" />
-      <File FileName="Assets/KevinWork/scripts/victoryCheck.cs" Line="39" Column="1" />
+      <File FileName="Assets/UVLight/RevealInUVLight.shader" />
+      <File FileName="Assets/KevinWork/scripts/victoryCheck.cs" />
       <File FileName="Assets/Scripts/ElevatorCloseButtonControl.cs" Line="105" Column="51" />
     </Files>
     <Pads>
@@ -30,7 +30,7 @@
                 <Node name="scripts" expanded="True" />
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="ElevatorCloseButtonControl.cs" selected="True" />
+                <Node name="PlayerSanity.cs" selected="True" />
               </Node>
               <Node name="UVLight" expanded="True" />
             </Node>
