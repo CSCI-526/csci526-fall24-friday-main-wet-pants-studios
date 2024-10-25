@@ -1,0 +1,509 @@
+Unity Editor version:    2022.3.43f1 (85497d293fa1)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56117
+Successfully changed project path to: /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha
+/Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8321060672]  Target information:
+
+Player connection [8321060672]  * "[IP] 192.168.7.119 [Port] 0 [Flags] 2 [Guid] 3649808789 [EditorId] 3649808789 [Version] 1048832 [Id] OSXEditor(0,Dongwooks-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8321060672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8321060672] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 6.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56361
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.43f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001213 seconds.
+- Loaded All Assemblies, in  0.261 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.165 seconds
+Domain Reload Profiling: 426ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (165ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (134ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-0x157d50800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x161094600 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x178068000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x157d50800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x178148000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x178128000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x178138000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141aacc00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147904600 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141abee00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1410eb800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120690000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14790c200 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141ac3e00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320800000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x148510000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1378e8a00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x3206b8000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x148558000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120690000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141ac3400 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x178280000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x3207e0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1206a0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138108000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138150000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14790c200 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479b3c00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14790c200 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141ac3800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147936800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320900000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138108000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138050000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1419d4400 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320700000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138050000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1410eb800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14793d200 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1206b8000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x178150000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479b3c00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141abee00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1610dae00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147960400 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1378eb400 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1378f3c00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.465 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (393ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (50.7 KB). Loaded Objects now: 4032.
+Memory consumption went from 152.6 MB to 152.6 MB.
+Total: 2.682959 ms (FindLiveObjects: 0.108500 ms CreateObjectMapping: 0.042875 ms MarkObjects: 2.436167 ms  DeleteObjects: 0.094750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 430918.664921 seconds.
+  path: Assets/Material/rad.mat
+  artifactKey: Guid(2b569c38293aa466c8fa83d467ea5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/rad.mat using Guid(2b569c38293aa466c8fa83d467ea5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0e31f0dafce6196af01abe20aef6acf2') in 0.065715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Material/blue.mat
+  artifactKey: Guid(3975f257c164244f7a303541d41b8489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/blue.mat using Guid(3975f257c164244f7a303541d41b8489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0ba6a2022b3862f29107cafde334210e') in 0.004302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Material/Key.prefab
+  artifactKey: Guid(deeacc0e844cd48de890566a27008efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Key.prefab using Guid(deeacc0e844cd48de890566a27008efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5bf03977aafebb553965a78b3c667ba4') in 0.013556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Material/Screen.mat
+  artifactKey: Guid(b9e3fca8daa644e168fd8e7767f375ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Screen.mat using Guid(b9e3fca8daa644e168fd8e7767f375ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9f668328e8d87859a1df66e400309749') in 0.007649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.725023 seconds.
+  path: Assets/UVLight/UVMaterial.mat
+  artifactKey: Guid(8ee4fab1b9fdc40f4b2bdd6e34310e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVLight/UVMaterial.mat using Guid(8ee4fab1b9fdc40f4b2bdd6e34310e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+The file 'Assets/UVLight/UVMaterial.mat' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+ -> (artifact id: '7c304b4bbf0ffd5d9b2da5e823309cf6') in 0.000746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.390537 seconds.
+  path: Assets/UVLight/UVMaterial.mat
+  artifactKey: Guid(8ee4fab1b9fdc40f4b2bdd6e34310e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVLight/UVMaterial.mat using Guid(8ee4fab1b9fdc40f4b2bdd6e34310e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a54c890e6b9d65e44e40716597809944') in 0.013538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16fe87000 may have been prematurely finalized
+Symbol file data-0x14786ea00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14121da00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120e78000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479eba00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138128000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320920000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320930000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14121da00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141237000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14123a400 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14123bc00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320920000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x14123bc00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141242800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320920000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320ac0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x141242800 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x320948000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138170000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381d0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479eba00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138108000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138190000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138108000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381c0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138108000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147aab000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147a9f000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479eba00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147aab000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147aab000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381c0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1382e0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381c0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1478e0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1382e0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138350000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1478e0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147a9f000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1383c8000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1382e0000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479fcc00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x147aab000 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1479f2c00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1478e7e00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1478eea00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1478efe00 doesn't match image /Users/woodkong/Developer/Unity/csci526-fall24-friday-main-wet-pants-studios/Alpha/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.276 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.771 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4077.
+Memory consumption went from 156.9 MB to 156.9 MB.
+Total: 2.639166 ms (FindLiveObjects: 0.125416 ms CreateObjectMapping: 0.042333 ms MarkObjects: 2.437334 ms  DeleteObjects: 0.033541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
